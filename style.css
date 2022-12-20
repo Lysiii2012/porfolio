@@ -394,6 +394,8 @@ h2{
 }
 footer{
     background: #040404b8;
+    position: relative;
+    z-index: 100;
 }
 .footer_conect{
     max-width: 1200px;
@@ -414,6 +416,7 @@ h3,.footer_conect li{
     color:#c89000;
     text-decoration: none;
     font-size: 18px;
+    cursor: pointer;
 }
 .skils{
     opacity: 0;
