@@ -272,10 +272,11 @@ h2{
 .box-second p{
     margin-bottom: 29 px;
 }
-.education, .portfolio{
+.education, .portfolio, .cart{
     padding: 70px 50px;
     width: 90%;
     margin: 0 auto;
+    
 }
 .education li{
     background: rgba(10, 15, 35, 0.55);
@@ -459,6 +460,51 @@ footer ul{
     justify-content: space-between;
     flex-wrap: wrap;
 }
+.portfoli_texnologi {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+    color:#E2B236;
+}
+h4{
+    color:#dd9595;
+    margin-right: 20px;
+}
+.cart_react{
+    display: flex;
+    justify-content: space-between;
+}
+.cart_react{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+    position: relative;
+    padding: 30px;
+    box-sizing: border-box;
+    border: 2px solid #E2B236;
+    border-radius: 20px;
+}
+.cart_react::before{
+    content: '';
+    display: block;
+    background: #03040582;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+}
+.cart{
+    position: relative;
+    padding: 20px 0 0 0;
+}
+.react_more{
+    position: absolute;
+}
 @keyframes slide-in-left {
     0% {
       -webkit-transform: translateX(-100px);
@@ -484,7 +530,6 @@ footer ul{
       opacity: 1;
     }
 }
-  
 @keyframes fade-in-bottom {
     0% {
       -webkit-transform: translateY(50px);
