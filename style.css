@@ -656,3 +656,8 @@ h4{
     top: calc(50% - -30px);
    }
 }
+@media screen and (max-width: 425px) {
+    .react_more {
+        top: calc(50% - -55px);
+    }
+}
