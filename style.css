@@ -144,8 +144,6 @@ h1{
     }
 }
 .header_about_me{
-    display: flex;
-    justify-content: space-between;
     align-items: center;
     margin: 0 auto;
     border: 5px solid #c89000;
@@ -166,6 +164,7 @@ h1{
     }
 }
 .header_about_me img{
+    float: left;
     width: 178px;
     left: 109px;
     border: 2px solid rgba(189, 41, 41, 0.53);
@@ -178,7 +177,7 @@ h1{
     line-height: 44px;
     opacity: 0;
     color: rgb(255 254 254);
-    text-shadow: rgb(0 0 0) 3px 12px 7px;
+    text-shadow: rgb(0 0 0) 3px 6px 7px;
     animation: show 3s ease 2s ;
     animation-fill-mode: forwards;
 }
@@ -375,7 +374,7 @@ h2{
 .dots{
     position: absolute;
     bottom: 90px;
-    left: calc(50% - 90px);
+    left: calc(50% - 117px);
     z-index: 20;
 }
 .dot{
@@ -652,5 +651,8 @@ h4{
    .footer_conect ul{
     justify-content: space-around;
     gap: 30px;
+   }
+   .react_more{
+    top: calc(50% - -30px);
    }
 }
