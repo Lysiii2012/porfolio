@@ -78,7 +78,7 @@ var swiper = new Swiper(".mySwiper", {
   },
 });
 
-var swiper1 = new Swiper1(".mySwiper1", {
+/*var swiper1 = new Swiper1(".mySwiper1", {
   slidesPerView: 1,
   spaceBetween: 30,
   loop: true,
@@ -90,4 +90,4 @@ var swiper1 = new Swiper1(".mySwiper1", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
-});
+});*/
